@@ -1,0 +1,106 @@
+/*
+ * jQuery Nivo Slider v2.7
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.nivo-caption{
+	display: none;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Full width styles */
+.fullwidth .nivo-caption .gdl-slider-title{ padding-bottom: 15px; }
+.fullwidth .nivo-caption{ padding: 0px; height: 100%; width: 280px; }
+.fullwidth .nivo-caption p{ padding: 25px; }
+.fullwidth.slider-wrapper .nivo-directionNav{ position: absolute; bottom: 0px; left: 660px; }
+.fullwidth.slider-wrapper .nivo-directionNav a{
+	background: url(../images/nivo-slider/bg_direction_nav_custom2.png) no-repeat;
+	width: 33px; height: 33px; position: relative;
+	float: left; left: 0px; right: 0px;
+}
+.fullwidth.slider-wrapper .nivo-directionNav a.nivo-nextNav{
+	background-position: -33px 0;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.68; /* Overridden by captionOpacity setting */
+	width:40%;
+	padding: 25px;
+	z-index:8;
+}
+.nivo-caption p {
+	padding:0px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav a {
+	position:relative;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}

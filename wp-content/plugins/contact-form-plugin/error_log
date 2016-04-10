@@ -1,0 +1,1 @@
+[19-Feb-2016 23:18:26 America/New_York] PHP Fatal error:  Call to undefined function register_activation_hook() in /home/poeteywp/public_html/readonline/wp-content/plugins/contact-form-plugin/contact_form.php on line 3191

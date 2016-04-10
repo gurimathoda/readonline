@@ -1,0 +1,70 @@
+.navigation-wrapper{ 
+	width: 980px !important; 
+	margin-left: -10px !important; 
+	margin-bottom: 12px !important; }
+
+.search-wrapper #searchform{
+	width: 294px !important;
+}
+#search-course-submit{ float: left !important; }
+.gdl-combobox-text{
+	position: relative;
+}
+.gdl-combobox-text .gdl-combobox-button{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+div.right-sidebar .gdl-page-item{
+	float: left !important;
+}
+div.both-sidebar-included .gdl-page-float-left{
+	width: 720px !important;
+}
+div.header-wrapper{
+	position: relative !important;
+	z-index: 9999;
+}
+div.content-wrapper{ 
+	position: relative;
+	z-index: 1;
+}
+div.container{
+	position: relative;
+	z-index: 1;
+}
+div.footer-wrapper{
+	position: relative;
+}
+
+span.portfolio-thumbnail-image-hover{
+	position: absolute;
+	left: 0px; 
+	top: 0px;
+}
+
+div.gdl-header-dropcap-center{ 
+	left: auto !important; 
+	top: 0px !important;
+	position: relative !important;
+	height: 32px !important;
+	line-height: 32px !important;
+	font-size: 0px !important; 
+}
+div.gdl-header-dropcap-center img{
+	font-size: 0px !important;
+	vertical-align: middle !important;
+	margin-left: 0px !important; 
+	margin-top: 10px !important;
+	display: inline-block !important;
+	position: relative !important;
+}
+
+/* Full background*/
+div#custom-full-background{
+	top:0 !important;
+	right:0 !important;
+	bottom:0 !important;
+	left:0 !important;
+}

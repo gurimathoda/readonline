@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+#slideShow{
+	margin:150px auto 0;
+	border:7px solid #fff;
+	width:635px;
+	height:415px;
+	box-shadow:5px 5px 0 rgba(22,22,22,0.3);
+}
+
+
+
+/*-------------------
+	Credit
+--------------------*/
+
+
+p.credit{
+	font-size:11px;
+	text-align:center;
+	padding: 40px;
+	text-shadow: 1px 1px 0 #333333;
+}
+
+p.credit i{
+	display: inline-block;
+	font-size: 10px;
+	font-style: normal;
+	padding-top: 10px;
+}
+
+
+/*----------------------------
+	The Footer
+-----------------------------*/
+
+
+footer{
+	display:block;
+	background-color:#212121;
+	box-shadow: 0 -1px 2px #111;
+	position:fixed;
+	width:100%;
+	height:70px;
+	bottom:0;
+	left:0;
+	z-index: 100000;
+}
+
+footer h2{
+	font-size:20px;
+	font-weight:normal;
+	left:50%;
+	margin-left:-400px;
+	padding:22px 0;
+	position:absolute;
+	width:400px;
+	color:#eee;
+}
+
+footer a.tzine,a.tzine:visited{
+	background:url("../img/tzine.png") no-repeat right top;
+	border:none;
+	text-decoration:none;
+	color:#FCFCFC;
+	font-size:12px;
+	height:70px;
+	left:50%;
+	line-height:31px;
+	margin:23px 0 0 110px;
+	position:absolute;
+	top:0;
+	width:290px;
+}

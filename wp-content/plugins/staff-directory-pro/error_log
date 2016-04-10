@@ -1,0 +1,1 @@
+[19-Feb-2016 23:18:59 America/New_York] PHP Fatal error:  Class 'WP_Widget' not found in /home/poeteywp/public_html/readonline/wp-content/plugins/staff-directory-pro/include/staff_list_widget.php on line 21

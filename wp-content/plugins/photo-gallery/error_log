@@ -1,0 +1,1 @@
+[19-Feb-2016 23:18:55 America/New_York] PHP Fatal error:  Call to undefined function plugin_basename() in /home/poeteywp/public_html/readonline/wp-content/plugins/photo-gallery/photo-gallery.php on line 13
